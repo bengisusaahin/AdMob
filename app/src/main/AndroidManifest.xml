@@ -12,11 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdMob"
         tools:targetApi="31">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
-
         <meta-data
-        android:name="com.google.android.gms.ads.APPLICATION_ID"
-        android:value="ca-app-pub-9851215230426670~5429320416"/>
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9851215230426670~5429320416" />
 
         <activity
             android:name=".MainActivity"
